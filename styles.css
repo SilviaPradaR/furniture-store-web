@@ -94,7 +94,9 @@ p {
 
 
 
-
+.products__all {
+    padding: 60px 0;
+}
 
 .products__all-category {
     /* background-color: #2d6255; */
@@ -156,7 +158,7 @@ p {
 }
 
 .about__intro {
-    padding: 40px 70px;
+    padding: 60px 70px;
 }
 
 .about__title,
@@ -191,6 +193,7 @@ p {
     width: 60%;
     text-align: center;
     margin: 0 auto;
+    padding: 80px 0;
 }
 
 .contact__form-container .contact__input {
@@ -207,3 +210,27 @@ p {
 
     color: #fff;
 }
+
+
+.footer{
+    font-size: 14px;
+    background-color: #f0f2f1;
+}
+.footer__title{
+    font-size: 18px;
+}
+.footer__button {
+    background-color: #35675a;
+    color: #fff;
+}
+.footer__button:hover {
+    background-color: #2d6255;
+    color: #fff;
+}
+.box{
+    height: 50px;
+    width: 100%;
+    background: #2d6255;
+}
+
+
