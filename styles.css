@@ -100,9 +100,10 @@ p {
 
 .products__all-category {
     /* background-color: #2d6255; */
-    padding: 5px 16px;
-    width: 150px;
+    padding: 5px 8px;
+    width: 100px;
     border: 1px solid #ccc;
+    font-size: 14px;
 }
 
 .products__all-category:hover {
@@ -117,7 +118,9 @@ p {
 .products__all-category a {
     color: #000;
 }
-
+.products-grid {
+    margin: 0 auto;
+}
 .products-grid-item {
     width: 250px;
     height: auto;
@@ -157,8 +160,11 @@ p {
     margin-top: 10px;
 }
 
+.about{
+    padding: 60px 0px;
+}
 .about__intro {
-    padding: 60px 70px;
+    padding: 0 70px;
 }
 
 .about__title,
@@ -233,4 +239,24 @@ p {
     background: #2d6255;
 }
 
+@media screen and (max-width: 992px) {
+    .about__intro {
+        padding: 0 60px;
+    
+}
+ 
+}
 
+@media screen and (max-width: 780px) {
+    .contact {
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .about {
+        padding: 0 16px;
+
+    }
+
+}
