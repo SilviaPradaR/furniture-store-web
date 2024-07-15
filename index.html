@@ -21,9 +21,9 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <nav class="header__navbar navbar navbar-expand-lg fixed-top" aria-label="Offcanvas navbar large">
-            <div class="container-fluid px-5">
+            <div class="container-fluid px-4 px-md-5">
                 <a class="navbar__brand navbar-brand" href="#">HomeDecor</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
@@ -67,6 +67,21 @@
             </div>
         </nav>
         <section class="header__hero">
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row align-items-center justify-content-center g-5 py-5">                  
+                  <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Discover the Best Furnitures</h1>
+                    <p class="lead">Explore our curated selection of stylish and comfortable furniture to transform your living spaces. Whether you're looking for modern, classic, or contemporary pieces, we have something to suit every taste and budget</p>
+                   
+                      <a href="#products" type="button" class="btn btn-lg px-4 hero__button mt-4">Shop now</a>
+                      
+                    
+                  </div>
+                  <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="imgs/hero.png" class="d-block mx-lg-auto img-fluid" alt="" width="700" height="500" loading="lazy">
+                  </div>
+                </div>
+              </div>
         </section>
     </header>
 
@@ -139,7 +154,7 @@
 
                     </div>
 
-
+                    <div class="swiper-pagination"></div>
                     <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
@@ -772,19 +787,28 @@
         const swiper = new Swiper('.swiper', {
             // Optional parameters
             slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                dynamicBullets: true,
+            },
             breakpoints: {
                 480: {
                     slidesPerView: 2,
-                    spaceBetween: 10
+                    spaceBetween: 20,
+                    pagination:true
 
                 },
                 998: {
                     slidesPerView: 3,
-                    spaceBetween: 20
+                    spaceBetween: 30,
+                    pagination: false,
                 },
                 1400: {
                     slidesPerView: 4,
-                    spaceBetween: 40
+                    spaceBetween: 40,
+                    pagination: false
                 }            
             },
                 direction: 'horizontal',

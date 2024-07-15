@@ -29,8 +29,18 @@ p {
 
 .header__navbar,
 .header__hero {
-    background-color: #2d6255
+    background-color: #2d6255;
 }
+.header__hero {
+    color: #fff;
+    margin-top: 56px;
+}
+
+.header__hero .hero__button{
+    background-color: #fff;
+    color: #2d6255;
+}
+
 
 .navbar__actions-item {
     background-color: #fff;
