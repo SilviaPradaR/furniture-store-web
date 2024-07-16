@@ -26,11 +26,25 @@ p {
 .navbar__link {
     color: #fff;
 }
-
+.navbar__link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
 .header__navbar,
 .header__hero {
     background-color: #2d6255;
 }
+.header .header__navbar .offcanvas{
+    background-color: #2d6255;
+}
+/* Cambiar el color del icono toggler a blanco */
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .header__hero {
     color: #fff;
     margin-top: 56px;
@@ -47,6 +61,9 @@ p {
     border-radius: 50%;
     width: 35px;
     height: 35px;
+}
+.navbar__actions-item:hover{
+    background-color: #fcf9f6;
 }
 
 .swiper {
@@ -251,7 +268,7 @@ p {
 
 @media screen and (max-width: 992px) {
     .about__intro {
-        padding: 0 60px;
+        padding: 0 20px;
     
 }
  

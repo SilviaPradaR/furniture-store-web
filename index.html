@@ -32,7 +32,7 @@
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
                     aria-labelledby="offcanvasNavbar2Label">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Navigation</h5>
+                        <h5 class="offcanvas-title text-white" id="offcanvasNavbar2Label">Navigation</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -49,6 +49,14 @@
                             <li class="nav-item me-5">
                                 <a class="navbar__link nav-link" href="#contact">Contact</a>
                             </li>
+                            <li class="nav-item me-5 nav-item--search d-none">
+                                <a class="navbar__link nav-link" href="#search">Search</a>
+                            </li>
+                            <li class="nav-item me-5 nav-item--cart d-none">
+                                <a class="navbar__link nav-link navbar__link--cart" href="#cart">My cart</a>
+                            </li>
+
+
                         </ul>
 
                         <ul class="navbar__actions navbar-nav d-flex mt-3 mt-lg-0">
@@ -863,6 +871,28 @@
                 });
             });
         });
+        document.addEventListener('DOMContentLoaded', function() {
+    const offcanvas = document.getElementById('offcanvasNavbar2');
+    const searchIcon = document.querySelector('.navbar__actions-item--search');
+    const searchText = document.querySelector('.nav-item--search');
+    const cartIcon = document.querySelector('.navbar__actions-item--cart');
+    const cartText = document.querySelector('.nav-item--cart');
+
+    offcanvas.addEventListener('show.bs.offcanvas', function() {
+        searchIcon.classList.add('d-none');
+        searchText.classList.remove('d-none');
+        cartIcon.classList.add('d-none');
+        cartText.classList.remove('d-none');
+    });
+
+    offcanvas.addEventListener('hide.bs.offcanvas', function() {
+        searchIcon.classList.remove('d-none');
+        searchText.classList.add('d-none');
+        cartIcon.classList.remove('d-none');
+        cartText.classList.add('d-none');
+    });
+});
+
 
     </script>
 </body>
