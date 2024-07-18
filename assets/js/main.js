@@ -98,7 +98,7 @@ const initOffcanvasNavbar = () => {
 async function loadProducts() {
     
     try {
-        const response = await fetch(`./products.json`);
+        const response = await fetch(`../../data/products.json`);
         const products = await response.json();
         const productsGrid = document.getElementById('products-grid');
         
@@ -133,8 +133,7 @@ async function loadProducts() {
 
 // Initialize all functions
 document.addEventListener('DOMContentLoaded', function() {
-    initSwiper();
-   
+    initSwiper();   
     initLinksCards();
     initOffcanvasNavbar();
     loadProducts();
