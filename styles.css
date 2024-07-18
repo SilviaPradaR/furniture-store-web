@@ -154,6 +154,15 @@ p {
     margin-bottom: 20px;
 
 }
+.product-card__button{
+    border: 1px solid #ccc;
+    font-size: 14px;
+   
+}
+.product-card__button:hover {
+    background-color: #2d6255;
+    color: #fff;
+}
 
 .products__all .product-card {
     border: 1px solid #ccc;
