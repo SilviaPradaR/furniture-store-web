@@ -20,41 +20,30 @@ p {
     margin-bottom: 0;
 }
 
-
-
+/*--------------------------NAVBAR--------------------------*/
 .navbar__brand,
 .navbar__link {
     color: #fff;
 }
+
 .navbar__link:hover {
     color: #fff;
     text-decoration: underline;
 }
+
 .header__navbar,
-.header__hero {
+.header__hero,
+.header__navbar .offcanvas {
     background-color: #2d6255;
 }
-.header .header__navbar .offcanvas{
-    background-color: #2d6255;
-}
-/* Cambiar el color del icono toggler a blanco */
+
 .navbar-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+
 .navbar-toggler:focus {
     box-shadow: none;
 }
-
-.header__hero {
-    color: #fff;
-    margin-top: 56px;
-}
-
-.header__hero .hero__button{
-    background-color: #fff;
-    color: #2d6255;
-}
-
 
 .navbar__actions-item {
     background-color: #fff;
@@ -62,13 +51,25 @@ p {
     width: 35px;
     height: 35px;
 }
-.navbar__actions-item:hover{
+
+.navbar__actions-item:hover {
     background-color: #fcf9f6;
 }
 
+/*--------------------------HERO--------------------------*/
+.header__hero {
+    color: #fff;
+    margin-top: 56px;
+}
+
+.header__hero .hero__button {
+    background-color: #fff;
+    color: #2d6255;
+}
+
+/*-----------------------HERO-SWIPER----------------------*/
 .swiper {
     width: 80%;
-
 }
 
 .products__swiper .swiper-button-prev,
@@ -79,13 +80,11 @@ p {
     width: 30px;
     opacity: 0;
     transition: opacity 0.3s;
-
 }
 
 .products__swiper .swiper-button-prev {
     border-radius: 0 65px 65px 0;
     left: -8px;
-
 }
 
 .products__swiper .swiper-button-next {
@@ -96,11 +95,9 @@ p {
 .products__swiper:hover .swiper-button-prev,
 .products__swiper:hover .swiper-button-next {
     opacity: 1;
-
 }
 
-
-
+/*---------------------PRODUCTS CARDS---------------------*/
 .products__featured .product-card__image {
     height: 180px;
     object-fit: cover;
@@ -119,14 +116,11 @@ p {
     background-color: #fcf9f6;
 }
 
-
-
 .products__all {
     padding: 60px 0;
 }
 
 .products__all-category {
-    /* background-color: #2d6255; */
     padding: 5px 8px;
     width: 100px;
     border: 1px solid #ccc;
@@ -135,7 +129,6 @@ p {
 
 .products__all-category:hover {
     background-color: #2d6255;
-
 }
 
 .products__all-category:hover a {
@@ -145,20 +138,22 @@ p {
 .products__all-category a {
     color: #000;
 }
+
 .products-grid {
     margin: 0 auto;
 }
+
 .products-grid-item {
     width: 250px;
     height: auto;
     margin-bottom: 20px;
-
 }
-.product-card__button{
+
+.product-card__button {
     border: 1px solid #ccc;
     font-size: 14px;
-   
 }
+
 .product-card__button:hover {
     background-color: #2d6255;
     color: #fff;
@@ -169,7 +164,6 @@ p {
     background: #fff;
     border-radius: 5px;
     overflow: hidden;
-
 }
 
 .products__all .product-card__image {
@@ -196,9 +190,11 @@ p {
     margin-top: 10px;
 }
 
-.about{
+/*----------------------ABOUT----------------------*/
+.about {
     padding: 60px 0px;
 }
+
 .about__intro {
     padding: 0 70px;
 }
@@ -228,9 +224,9 @@ p {
     --bs-pagination-color: #35675a;
     --bs-pagination-bg: none;
     --bs-pagination-border-color: none;
-
 }
 
+/*----------------------CONTACT US----------------------*/
 .contact {
     width: 60%;
     text-align: center;
@@ -249,50 +245,50 @@ p {
 
 .contact__submit-btn:hover {
     background-color: #2d6255;
-
     color: #fff;
 }
 
-
-.footer{
+/*----------------------FOOTER----------------------*/
+.footer {
     font-size: 14px;
     background-color: #f0f2f1;
 }
-.footer__title{
+
+.footer__title {
     font-size: 18px;
 }
+
 .footer__button {
     background-color: #35675a;
     color: #fff;
 }
+
 .footer__button:hover {
     background-color: #2d6255;
     color: #fff;
 }
-.box{
+
+.box {
     height: 50px;
     width: 100%;
     background: #2d6255;
 }
 
+/*----------------------RESPONSIVE DESIGN----------------------*/
 @media screen and (max-width: 992px) {
     .about__intro {
         padding: 0 20px;
-    
-}
- 
+    }
 }
 
 @media screen and (max-width: 780px) {
     .contact {
         width: 80%;
     }
-
 }
+
 @media screen and (max-width: 576px) {
     .about {
-        padding: 0 16px;
-
+        padding: 60px 16px;
     }
-
 }
