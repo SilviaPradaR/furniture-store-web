@@ -4,6 +4,7 @@
         "name": "Finnala",
         "image": "./assets/imgs/product-1.jpg",
         "price": "$2,695.00",
+        "category": "Sofas",
         "description": "Modern black leather sectional sofa with adjustable headrests and sleek metal legs. Offers comfort and contemporary style, perfect for spacious living rooms with ample seating and a sophisticated look."
     },
     {
@@ -11,6 +12,7 @@
         "name": "Kivik",
         "image": "./assets/imgs/product-2.jpg",
         "price": "$1,749.00",
+        "category": "Chairs",
         "description": "White chaise lounge chair with a curved design and plush upholstery. Includes two striped pillows for added comfort. Ideal for relaxation, it adds a touch of elegance to any room."
     },
     {
@@ -18,6 +20,7 @@
         "name": "Kanata",
         "image": "./assets/imgs/product-3.jpg",
         "price": "$1,060.00",
+        "category": "Chairs",
         "description": "Pair of gray upholstered armchairs with wooden legs. Featuring a button-tufted design and supportive backrest, these chairs are suitable for living rooms or reading nooks, combining comfort and style."
     },
     {
@@ -25,6 +28,7 @@
         "name": "Tropical",
         "image": "./assets/imgs/product-4.jpg",
         "price": "$680.00",
+        "category": "Dining tables",
         "description": "Modern dining set with tropical patterned cushions and natural wood finishes"
     },
     {
@@ -32,6 +36,7 @@
         "name": "Richmond",
         "image": "./assets/imgs/product-5.jpg",
         "price": "$760.00",
+        "category": "Sofas",
         "description": "Modern-style sofa features textured gray upholstery with a clean-lined, rectangular design. It has a low backrest and one armrest on the left side. The short metal legs give it a slight elevation off the ground."
     },
     {
@@ -39,6 +44,7 @@
         "name": "Abaco",
         "image": "./assets/imgs/product-6.jpg",
         "price": "$5,693.00",
+        "category": "Dining tables",
         "description": "Wicker outdoor dining set featuring a wooden table and six wicker chairs with cushions. Perfect for patios or gardens, this set offers stylish and comfortable seating for outdoor dining."
     },
     {
@@ -46,6 +52,7 @@
         "name": "Cambridge",
         "image": "./assets/imgs/product-7.jpg",
         "price": "$12,320.00",
+        "category": "Sofas",
         "description": "Elegant living room featuring a spacious gray sectional sofa and a modern dining set with light gray upholstered chairs."
     },
     {
@@ -53,6 +60,7 @@
         "name": "Ankara",
         "image": "./assets/imgs/product-8.jpg",
         "price": "$999.00",
+        "category": "Chairs",
         "description": "Contemporary chair with a wooden base and light gray fabric upholstery, perfect for minimalist spaces."
     },
     {
@@ -60,6 +68,7 @@
         "name": "Terra",
         "image": "./assets/imgs/product-9.jpg",
         "price": "$2,399.00",
+        "category": "Desks",
         "description": "White modern and minimalist desk made from high-quality materials, featuring a smooth and durable surface. It includes four drawers, providing ample storage space while maintaining a clean and elegant design."
     },
     {
@@ -67,6 +76,7 @@
         "name": "Ivory",
         "image": "./assets/imgs/product-10.jpg",
         "price": "$1,700.00",
+        "category": "Sofas",
         "description": "Classic-style sofa with tufted backrest and seating, upholstered in light-colored fabric (white or cream). It has rolled arms and dark wooden legs, adding to its elegant and timeless design. Perfect for creating a sophisticated ambiance in any living space."
     },
     {
@@ -74,6 +84,7 @@
         "name": "Charlotte",
         "image": "./assets/imgs/product-11.jpg",
         "price": "$2,925.90",
+        "category": "Dining tables",
         "description": "Dining set includes a rectangular table and eight matching chairs. The table has a light-colored wooden finish, while the chairs feature comfortable cushioned seats and backs upholstered in an off-white fabric."
     },
     {
@@ -81,6 +92,7 @@
         "name": "Toronto",
         "image": "./assets/imgs/product-12.jpg",
         "price": "$654.03",
+        "category": "Dining tables",
         "description": "Modern dining set including a black rectangular table and six white chairs. The chairs have high backs, white upholstery and metal legs that match the elegant design of the table. This set seats six people, making it perfect for contemporary dining spaces."
     },
     {
@@ -88,6 +100,7 @@
         "name": "Kimberly",
         "image": "./assets/imgs/product-13.jpg",
         "price": "$1824.39",
+        "category": "Dining tables",
         "description": "Modern dining set including a large rectangular table and eight matching chairs upholstered in a patterned fabric. The table is made of light-colored material, possibly wood or a wood composite."
     },
     {
@@ -95,6 +108,7 @@
         "name": "Lia",
         "image": "./assets/imgs/product-14.jpg",
         "price": "$779.99",
+        "category": "Dining tables",
         "description": "Dining set including a round table made of light-colored wood and four upholstered chairs in gray fabric. The chairs are designed for comfort and style, making this set perfect for small gatherings or family meals."
     },
     {
@@ -102,6 +116,7 @@
         "name": "Vienna",
         "image": "./assets/imgs/product-15.jpg",
         "price": "$895.00",
+        "category": "Sofas",
         "description": "Sofa with beige upholstery with a high back and cushioned armrests for added comfort. The sofa’s design is both cozy and chic, making it an attractive addition to any living space."
     },
     {
@@ -109,6 +124,7 @@
         "name": "Talia",
         "image": "./assets/imgs/product-16.jpg",
         "price": "$990.00",
+        "category": "Sofas",
         "description": "Sofa with a ribbed design in varying shades of grey. It includes multiple cushions for added comfort and style. The sofa’s contemporary look makes it an ideal choice for buyers seeking a blend of comfort."
     },
     {
@@ -116,6 +132,7 @@
         "name": "Aurora",
         "image": "./assets/imgs/product-17.jpg",
         "price": "$390.32",
+        "category": "Chairs",
         "description": "Rattan armchair that features an open weave design and comes with a white cushion. Its natural material and airy aesthetic make it a stylish addition to any home decor. Perfect for adding a bohemian or tropical touch to living spaces."
     },
     {
@@ -123,6 +140,7 @@
         "name": "Charette",
         "image": "./assets/imgs/product-18.jpg",
         "price": "$1,350.00",
+        "category": "Sofas",
         "description": "Green velvet sofa with tufted backrest and seat cushions. It has square arms and stands on four round, tapered wooden legs. The luxurious texture and contemporary design make it an ideal choice for elegant and comfortable living spaces."
     },
     {
@@ -130,6 +148,7 @@
         "name": "Arianne",
         "image": "./assets/imgs/product-19.jpg",
         "price": "$895.00",
+        "category": "Chairs",
         "description": "Vibrant yellow accent chair with a mid-century modern design with clean lines and tapered legs in a gold finish. Its bold color and stylish look make it a perfect statement piece for contemporary living spaces. Ideal for adding a pop of color and elegance to any room."
     },
     {
@@ -137,6 +156,7 @@
         "name": "Ottawa",
         "image": "./assets/imgs/product-20.jpg",
         "price": "$1,695.00",
+        "category": "Sofas",
         "description": "Grey sofa with a tufted backrest and neutral upholstery. It includes two teal throw pillows and one patterned accent pillow, adding a pop of color."
     },
     {
@@ -144,6 +164,7 @@
         "name": "Easton",
         "image": "./assets/imgs/product-21.jpg",
         "price": "$1,200.00",
+        "category": "Chairs",
         "description": "Elegant white tufted chair with a high backrest and armrests with button detailing. The slender, tapered legs are painted white to match the upholstery. Its sophisticated and timeless design makes it a versatile addition to any interior decor."
     },
     {
@@ -151,6 +172,7 @@
         "name": "Twist",
         "image": "./assets/imgs/product-22.jpg",
         "price": "$2,499.00",
+        "category": "Desks",
         "description": "Desk with a sleek, dark tabletop paired with a unique base made from a single piece of light-colored wood, resembling a tree trunk. The combination of natural and contemporary elements makes it a standout piece for any workspace. Ideal for those seeking a blend of functionality and stylish design."
     },
     {
@@ -158,6 +180,7 @@
         "name": "Sherbrooke",
         "image": "./assets/imgs/product-23.jpg",
         "price": "$1,670.00",
+        "category": "Chairs",
         "description": "Vibrant yellow wingback chair comes with a matching ottoman, both featuring wooden legs. The chair’s mid-century modern design and the ottoman’s complementary style make this set a perfect addition to any contemporary living space. Ideal for adding a pop of color and comfort."
     },
     {
@@ -165,6 +188,7 @@
         "name": "Pasadena",
         "image": "./assets/imgs/product-24.jpg",
         "price": "$2,700.00",
+        "category": "Beds",        
         "description": "Elegant bed features a sturdy wooden headboard and matching bedside tables. It is dressed in a sophisticated grey and white bedding set, accented with red decorative pillows. Perfect for creating a cozy and inviting bedroom atmosphere."
     },
     {
@@ -172,6 +196,7 @@
         "name": "Louisa",
         "image": "./assets/imgs/product-25.jpg",
         "price": "$1,550.00",
+        "category": "Chairs",
         "description": "Mid-century modern armchair features a solid wood frame and plush green upholstery. It has sleek, clean lines and tapered legs, complemented by a white cushion with geometric patterns."
     },
     {
@@ -179,6 +204,7 @@
         "name": "Maxwell",
         "image": "./assets/imgs/product-26.jpg",
         "price": "$1,499.00",
+        "category": "Desks",
         "description": "Office desk features a smooth wooden finish and a sleek design. Ideal for creating a functional and stylish workspace."
     },
     {
@@ -186,6 +212,7 @@
         "name": "Imola",
         "image": "./assets/imgs/product-27.jpg",
         "price": "$719.43",
+        "category": "Chairs",
         "description": "Lounge chair features a sleek curved wooden frame and black cushioning. Its elegant silhouette and comfortable design make it a stylish addition to any contemporary living space. Ideal for those seeking both comfort and modern aesthetics."
     },
     {
@@ -193,6 +220,7 @@
         "name": "Medina",
         "image": "./assets/imgs/product-28.jpg",
         "price": "$2,150.00",
+        "category": "Beds",
         "description": "Bed features an upholstered headboard in a neutral color. It has a sturdy frame and a modern design, making it a stylish and comfortable addition to any bedroom. Ideal for those seeking both elegance and functionality."
     },
     {
@@ -200,6 +228,7 @@
         "name": "Hudson",
         "image": "./assets/imgs/product-29.jpg",
         "price": "$2,375.00",
+        "category": "Beds",
         "description": "Bed features a large, sturdy frame with a high headboard showcasing horizontal paneling. Its neutral color palette and clean lines make it a sophisticated centerpiece for any modern bedroom."
     },
     {
@@ -207,6 +236,7 @@
         "name": "Lynn",
         "image": "./assets/imgs/product-30.jpg",
         "price": "$1,150.00",
+        "category": "Beds",
         "description": "Bed features a minimalist design with a wooden headboard that extends to create integrated nightstands on each side. The low-profile, platform-style frame showcases a natural wood grain pattern."
     },
     {
@@ -214,6 +244,7 @@
         "name": "Joliette",
         "image": "./assets/imgs/product-31.jpg",
         "price": "$1,120.00",
+        "category": "Chairs",
         "description": "Lounge chair features a sleek curved wooden frame and black cushioning. Its elegant silhouette and comfortable design make it a stylish addition to any contemporary living space."
     }
 ]

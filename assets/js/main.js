@@ -42,17 +42,17 @@ const initSwiper = () => {
 // Initialize Masonry
 const initMasonry = () => {
     const elem = document.querySelector('.grid');
-    
+
     const msnry = new Masonry(elem, {
         itemSelector: '.grid-item',
         columnWidth: '.grid-item',
         gutter: 20,
         isFitWidth: true
     });
-    imagesLoaded(elem, function() {
+    imagesLoaded(elem, function () {
         msnry.layout();
     });
-   
+
 };
 
 // Handle links and cards in the About section
@@ -80,14 +80,14 @@ const initOffcanvasNavbar = () => {
     const cartIcon = document.querySelector('.navbar__actions-item--cart');
     const cartText = document.querySelector('.nav-item--cart');
 
-    offcanvas.addEventListener('show.bs.offcanvas', function() {
+    offcanvas.addEventListener('show.bs.offcanvas', function () {
         searchIcon.classList.add('d-none');
         searchText.classList.remove('d-none');
         cartIcon.classList.add('d-none');
         cartText.classList.remove('d-none');
     });
 
-    offcanvas.addEventListener('hide.bs.offcanvas', function() {
+    offcanvas.addEventListener('hide.bs.offcanvas', function () {
         searchIcon.classList.remove('d-none');
         searchText.classList.add('d-none');
         cartIcon.classList.remove('d-none');
@@ -95,18 +95,24 @@ const initOffcanvasNavbar = () => {
     });
 };
 
-async function loadProducts() {
-    
+// Asynchronous function to load products from a JSON file and display them on the page
+async function loadProducts(category = 'All') {
+
     try {
+        // Fetch the products data from the specified JSON file
         const response = await fetch(`../../data/products.json`);
+        // Parse the response data as JSON
         const products = await response.json();
         const productsGrid = document.getElementById('products-grid');
-        
-        products.forEach(product => {
-            const productCard = document.createElement('div');
-            productCard.classList.add('grid-item', 'products-grid-item');
+        productsGrid.innerHTML = ''; // Clear the grid before adding filtered products
 
-            productCard.innerHTML = `
+        products.forEach(product => {
+            if (category === 'All' || product.category === category) {
+                const productCard = document.createElement('div');
+                productCard.classList.add('grid-item', 'products-grid-item');
+
+                // Set the inner HTML of the product card with product details
+                productCard.innerHTML = `
                 <div class="product-card">
                     <a href="${product.image}" data-lightbox="image-${product.id}">
                         <img src="${product.image}" class="product-card__image" alt="${product.name}">
@@ -122,19 +128,36 @@ async function loadProducts() {
                 </div>
             `;
 
-            productsGrid.appendChild(productCard);
-            
+                productsGrid.appendChild(productCard);
+            }
+
         });
+        // Initialize Masonry layout after all product cards have been added
         initMasonry();
     } catch (error) {
         console.error('Error loading products:', error);
     }
 }
 
+// Function to initialize the filters
+const initFilters = () => {
+    const filterButtons = document.querySelectorAll('.filter-button');
+
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            event.preventDefault();
+            console.log("entre")
+            const category = this.getAttribute('data-category');
+            loadProducts(category);
+        });
+    });
+};
+
 // Initialize all functions
-document.addEventListener('DOMContentLoaded', function() {
-    initSwiper();   
+document.addEventListener('DOMContentLoaded', function () {
+    initSwiper();
     initLinksCards();
     initOffcanvasNavbar();
+    initFilters();
     loadProducts();
 });
