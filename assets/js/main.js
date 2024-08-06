@@ -100,7 +100,7 @@ async function loadProducts(category = 'All') {
 
     try {
         // Fetch the products data from the specified JSON file
-        const response = await fetch(`../../data/products.json`);
+        const response = await fetch(`./data/products.json`);
         // Parse the response data as JSON
         const products = await response.json();
         const productsGrid = document.getElementById('products-grid');
@@ -146,7 +146,6 @@ const initFilters = () => {
     filterButtons.forEach(button => {
         button.addEventListener('click', function () {
             event.preventDefault();
-            console.log("entre")
             const category = this.getAttribute('data-category');
             loadProducts(category);
         });
